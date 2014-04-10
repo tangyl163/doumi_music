@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#B2123456" >
+    
+    <TextView android:id="@+id/dialog_pl_title" android:layout_width="fill_parent" android:layout_height="20dp" android:gravity="center" android:text="创建列表" android:textSize="16sp" android:textColor="#FFFFFF" android:layout_marginTop="10dp" android:layout_marginBottom="5dp" />
+    
+    <View android:layout_width="fill_parent" android:layout_height="1dp" android:background="#E6FFFFFF" android:layout_marginBottom="4dp" />
+    
+    <!-- EditText控件的高度一定要大于30dp，否则会显示有问题 -->
+    <EditText android:id="@+id/new_name_playlist" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:inputType="text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp">
+        <Button android:id="@+id/btn_pl_ok" android:text="新建" android:layout_weight="1.0" android:layout_width="0dp" android:layout_height="40dp" android:layout_marginLeft="10dp"/>
+        <Button android:id="@+id/btn_pl_cancel" android:text="取消" android:layout_weight="1.0"  android:layout_width="0dp" android:layout_height="40dp" android:layout_marginRight="10dp"/>
+    </LinearLayout>
+    
+</LinearLayout>

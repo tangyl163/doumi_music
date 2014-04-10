@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 页面指示栏 标签文字 -->
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="40dp" android:orientation="horizontal" android:background="#FFFFFF">
+		<TextView android:id="@+id/pg_lb_musicmy" android:text="@string/page_laber_MusicMy" android:textColor="#000000" android:textSize="20sp" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    	<TextView android:id="@+id/pg_lb_musiclib" android:text="@string/page_laber_MusicLib" android:textColor="#000000" android:textSize="20sp" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    	<TextView android:id="@+id/pg_lb_musicsearch" android:text="@string/page_laber_MusicSearch" android:textColor="#000000" android:textSize="20sp" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>            
+    </LinearLayout>
+    <!-- 页面指示栏 图标 -->
+    <ImageView android:id="@+id/pg_img_cursor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="matrix" android:src="@drawable/cursor" />
+    
+    <!-- viewpager 页面容器 -->
+    <android.support.v4.view.ViewPager android:id="@+id/pagemanager" android:persistentDrawingCache="animation" android:flipInterval="30" android:layout_weight="1.0" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:background="#334455" />    
+    
+
+</LinearLayout>

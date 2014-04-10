@@ -1,0 +1,10 @@
+<resources>
+	<!-- appname -->
+    <string name="app_name">豆米音乐</string>
+
+    <!-- viewpager laber -->
+    <string name="page_laber_MusicMy">我的</string>
+    <string name="page_laber_MusicLib">曲库</string>
+    <string name="page_laber_MusicSearch">搜索</string>
+    
+</resources>
